@@ -1,0 +1,221 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       *{
+	margin-right:40%;
+	padding:0;	
+        }
+	#map {
+	margin-top:0%;
+        margin-left:30%;
+        height:1400px;
+        width:1050px;
+      }
+      
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+      #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+      }
+      
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+      
+      #infowindow-content {
+        display: none;
+      }
+      
+      #map #infowindow-content {
+        display: inline;
+      }
+      
+      .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+      }
+      
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+      
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+      
+      .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+      
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 400px;
+      }
+      
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+      
+      #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+      }
+      
+      #target {
+        width: 345px;
+      }
+.side-bar{
+    width:30%;
+    height: 100vh;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(50);
+    backdrop-filter: opacity(70);
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    
+    position:relative;
+    top:1%;
+    left:50%;
+    transform: translate(-50%,50%);
+    width:295px;
+    height:170px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top:30px;
+    /* padding:40px; */
+}
+
+.corner{
+    display: flex;
+    /* margin:10px; */
+    justify-content:flex-end;
+}
+small{
+    margin:5px;
+    font-size: 15px;
+    color:rgb(37, 196, 245);
+}
+
+.box-img{
+    position: absolute;
+    top:-12%;
+    left:7%;
+    border-radius:50% ;
+    width:50px;
+    height:50px;
+}
+
+.desc{
+    display: flex;
+    justify-content: flex-start;
+}
+h4{
+    margin-top:10px;
+    position: relative;
+    left:5%;
+}
+h5{
+    position: relative;
+    left:4%;
+    margin:4px;
+}
+
+.line{
+    position: absolute;
+    width:93%;
+    top:75%;
+    left:3%;
+    text-align: center;
+    background-color: black;
+    height:1px;
+}
+
+.name{
+    color:rgb(240, 51, 199);
+    position: relative;
+    top:6%;
+}
+.contact{
+    position: absolute;
+    margin-left: 5%;
+    width:50%;
+    top:65%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    position: relative;
+    top:29px;
+    /* left:10%; */
+    width:14%;
+    height:auto;
+}
+
+.price{
+    
+    
+     
+    
+    color:rgb(19, 245, 19);
+    position: relative;
+    left:80%;
+    top:18%;
+    display: flex;
+    justify-content: flex-end;
+    display: inline;
+}
+
+.price>h4{
+    position: relative;
+    
+    text-align: center;
+    width:13%;
+    height:20px;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 1px 1px 4px rgb(212, 210, 210);
+    border-radius: 20%;
+    display: inline-block;
+}
+
+.bookmark{
+    position: relative;
+    top:5px;
+    left:-3%;
+    width:15px;
+    height:15px;
+}
+
+.corner1{
+    position: relative;
+    left:70%;
+}
